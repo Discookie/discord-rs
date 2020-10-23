@@ -16,6 +16,7 @@ default = ["voice"]
 voice = ["opus", "sodiumoxide", "byteorder"]
 
 [dependencies]
+openssl = { version = "0.10", features = ["vendored"] }
 hyper = { version = "0.10", default-features = false }
 hyper-native-tls = "0.3.0"
 serde = "1.0"
